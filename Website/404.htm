@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset=utf-8 />
+	<meta name="viewport" content="width=550px, user-scalable=no" />
+
+	<title>Shoppinghook</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<style type="text/css" media="screen">
+
+		/*
+		Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+		Code licensed under the BSD License:
+		http://developer.yahoo.com/yui/license.html
+		version: 2.8.1
+		*/
+		html{color:#000;background:#26AFAB;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+		body {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+			text-align: center;
+			color: #F1F1F1;
+		}
+		
+		#content {
+			margin: 0 40px;
+		}
+		
+		#content br {
+			display: none;
+		}
+	
+		#content h1 {
+			background-image: url(shoppinghook_text_v1.svg);
+			width: 422px;
+			height: 358px;
+			background-size: 422px 358px;
+			text-indent: -1000px;
+			overflow: hidden;
+			margin: 50px auto 0 auto;
+		}
+	
+		#content h2 {
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			font-size: 80px;
+			margin-top: 20px;
+		}
+	
+		#content p {
+			font-size: 26px;
+		}
+	
+		a:link, a:visited {
+			color: #184F55 ;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: #184F55 ;
+		}
+	
+		a:link#download, a:visited#download {
+			/*border: 2px solid #184F55 ;*/
+			background-color: #184F55 ;
+			border-radius: 3px;
+			padding: 15px 130px;
+			margin: 44px 0;
+			display: inline-block;
+			color: #fff !important;
+			transition: background-color 0.6s, box-shadow 0.6s, text-shadow 0.6s;
+			font-size: 20px;
+/*			box-shadow: inset 0px 0px 0px 1px #fff;*/
+		}
+	
+		a:hover#download {
+			/*border: 2px solid #184F55 ;*/
+			color: #fff;
+			background-color: #032225 ;
+			box-shadow: 0px 0px 10px rgba(25,155, 168, 0.5);
+			text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+		}
+	
+		footer {
+			font-size: 0.8em;
+			margin-top : 100px;
+		}
+	
+		footer strong {
+			font-weight: 600;
+		}
+	
+		ul#nav {
+			list-style-type: none;
+			text-indent: 0;
+			padding: 0;
+			margin-top: 20px;
+		}
+	
+		ul#nav li {
+			display: inline-block;
+			padding: 0 8px;
+		}
+	
+		footer a:link {
+			border-bottom-color: transparent;
+			transition: border-bottom-color 0.5s;
+		}
+	
+		footer a:hover {
+			border-bottom: 1px solid #184F55 ;
+			/*text-decoration: underline;*/
+		}
+	
+		#copyright {
+			font-size: 0.6em;
+			margin-top: 25px;
+			margin-bottom: 10px;
+			color: #bbb;
+		}
+		
+		strong {
+			font-weight: 600;
+		}
+		
+		@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+			
+			#content br {
+				display: block;
+			}
+			
+			#content p {
+				font-size: 2.2em;
+			}
+			
+			footer {
+				margin-top: 90px !important;
+			}
+			
+			a:link#download {
+				font-size: 2em;
+				padding: 25px 90px;
+				border-radius: 6px;
+			}
+			
+			ul#nav {
+				padding-top: 30px;
+			}
+			
+			#nav li {
+				display: block;
+			}
+			
+			#nav li a:link, #nav li a:visited {
+				display: block;
+				width: 520px;
+				border-top: 1px solid #efefef;
+				font-size: 2em;
+				line-height: 2.5em;
+			}
+			
+			#copyright {
+				font-size: 1em;
+				padding: 20px 0;
+			}
+		}
+		
+		#modal.shown #videoFrame {
+			opacity: 1;
+		}
+		
+		#modal {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+		
+		#modal-bg {
+			transition: opacity 0.5s;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.8);
+			opacity: 0;
+		}
+				
+		#modal.shown #modal-bg {
+			opacity: 1;
+		}
+		
+		#videoFrame {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			border: none;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+			background-color: #000;
+		}
+		
+		.fa.fa-times-circle {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			color: #fff;
+			opacity: 0.5;
+			cursor: pointer;
+			font-size: 2em;
+			transition: all 0.3s;
+		}
+		
+		.fa.fa-times-circle:hover {
+			opacity: 1;
+			text-shadow: 0 0 10px rgba(255,255,255,0.5);
+		}
+	</style>
+	
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<section id="content">
+<h2>eerrmmm... this is awkward!</h2>		
+		<p>We couldn't find what you were looking for</p>
+	<h1></h1>
+
+	</section>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-48889083-1', 'shoppinghook.com.com');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

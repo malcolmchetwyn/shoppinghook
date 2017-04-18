@@ -1,0 +1,1 @@
+On Signup or login. All buttons which trigger a server side call at the bottom will display a spinner after the user has clicked the button.

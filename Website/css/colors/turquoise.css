@@ -1,0 +1,125 @@
+/* --------------------------------------
+=========================================
+COLOR : BLUE 
+
+MAIN COLOR CODE: #199ba8
+
+DEEP COLOR CODE: #199ba8
+=========================================
+----------------------------------------- */
+
+.color-overlay {
+    /* background: rgba(25,155,168, 0.9); */
+	 background: rgba(25,155,168, 0.8);
+}
+
+.adjust {
+	margin-right: 10px;
+}
+
+.standard-button {
+    background: #184F55;
+}
+
+.standard-button3 {
+	background: #184F55;
+	background-color: #184F55;
+	border-color:#184F55;
+	border-radius: 3px;
+	padding: 15px 130px;
+	margin: 44px 0;
+	display: inline-block;
+	color: #fff !important;
+	transition: background-color 0.6s, box-shadow 0.6s, text-shadow 0.6s;
+	font-size: 20px;
+}
+
+a:hover.standard-button3 {
+			/*border: 2px solid #184F55 ;*/
+			color: #fff;
+			background-color: #032225 ;
+			border-color:#184F55;
+			box-shadow: 0px 0px 10px rgba(25,155, 168, 0.5);
+			text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+		}
+
+
+#top-logo{		
+		background-image: url(../../images/shoppinghook_text_v1.svg) !important;
+	background-size: 422px 358px;  
+	width: 422px;  
+	height: 358px;  
+	margin: 50px auto 0 auto;
+}
+		
+		
+.standard-button2 {
+    background: #199ba8;
+}
+
+.standard-button2:hover {
+    background: #199ba8;
+}
+
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+    background: #199ba8;
+    border-color: inherit;
+}
+
+.colored-line,
+.colored-line-left {
+    background: #199ba8;
+}
+
+.main-color {
+    color: #199ba8;
+}
+
+.features .feature:hover .icon-container .icon {
+    background: #199ba8;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #199ba8;
+            box-shadow: 0px 0px 0px 2px #199ba8;
+}
+
+.features .feature .icon-container .icon {
+    border: 1px solid #199ba8;
+    color: #199ba8;
+}
+
+.feature-list li i {
+    color: #199ba8;
+}
+
+.services .single-service .service-icon,
+.services .single-service h3 {
+    color: #199ba8;
+}
+
+.screenshots .owl-theme .owl-controls .owl-page span {
+    background: #199ba8;
+}
+
+footer .contact-button {
+    border: 2px solid #199ba8;
+    color: #199ba8;
+}
+
+footer .contact-button:hover {
+    background: #199ba8;
+}
+
+footer .contact-box .expanded-contact-form .input-box:active,
+footer .contact-box .expanded-contact-form .textarea-box:active,
+footer .contact-box .expanded-contact-form .input-box:focus,
+footer .contact-box .expanded-contact-form .textarea-box:focus {
+    border: 1px solid #199ba8;
+}
+
+footer .social-icons li a:hover {
+    color: #199ba8;
+}

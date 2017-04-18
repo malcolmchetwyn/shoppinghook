@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Shoppinghook
+
+  Created on 23/03/2014.
+  
+*/
+
+
+"signup" = "Signup";
+"fb_signup" = "Login with Facebook";
+"signin" = "Login";
+"forget_password" = "Forget Password?";
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"email" = "Email";
+"password" = "Password";
+"phone_no" = "Phone Number";
+"enter_email"    = "Enter your email";
+"enter_firstname" = "Enter your username";
+"enter_lastname" = "Enter your lastname";
+"enter_password" = "Enter your password";
+"enter_phone" = "Enter your phone number";
+"join"="Join";
+
+
+"message" = "Message";
+"valid_email" = "Your Email is not valid.";
+"empty_fields" = "One or more of your fields are empty";
+"password_length" = "Password must be atleast 8 character long";
+"forgot_password" = "Forgot Password";
+"cancel" = "Cancel";
+"ok" = "OK";
+"back" = "Back";
+
+
+// Error Messages
+
+"signup_success" = "Share facts, interesting ideas and pro tips";
+"email_not_found" = "This email is not registered in our database";
+"email_not_already_taken" = "This email is already associated with another user";
+"wrong_credentials" = "Your email or password is not correct. Please try again.";
+"network_availability" = "Your network seems to be offline";
+"unknown_error" = "An unknown error has occured.";

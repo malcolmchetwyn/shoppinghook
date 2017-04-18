@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B35964C1-FF57-4C65-8B50-745019181ED8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Shoppinghook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E892C54F-001E-4190-BFED-17339EEB36C2</key>
+		<string>https://bitbucket.org/muhammadjabbar88/coco-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Coco/Shoppinghook.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E892C54F-001E-4190-BFED-17339EEB36C2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/muhammadjabbar88/coco-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E892C54F-001E-4190-BFED-17339EEB36C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E892C54F-001E-4190-BFED-17339EEB36C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coco-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
